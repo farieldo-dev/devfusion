@@ -1,0 +1,29 @@
+export type ProjectType = {
+    id: number
+    error: boolean
+    title: string
+    description: string	
+    userId: number
+    limit: string
+    startDate: string	
+    endDate: string
+    category: string
+    level: string
+    tags: any[]	
+    responsibles: any[]	
+    financial: number
+    hours: number	
+    comment: string	
+    attachment: string	
+    bu: string
+    buName: string	
+    app: number
+    appName: string	
+    type: string
+    status: string	
+    responsible: number
+    responsibleName: string	
+    created: Date	
+    squad: number
+    squadName: string
+}
